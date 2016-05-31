@@ -1,0 +1,19 @@
+$(document).ready(function(){
+	$("#btnMenu").click(function(){
+		if($("#nav-list-mobile").hasClass('active')){
+			//$("#nav-list-mobile").slideUp(200);
+			$("#nav-list-mobile").animate({
+				top:"-100%",
+				opacity: 0,
+			},1000);	
+			$("#nav-list-mobile").removeClass('active');
+		}else{
+			//$("#nav-list-mobile").slideDown(200);
+			$("#nav-list-mobile").animate({
+				top:"44px",
+				opacity:1,
+			},1000);
+			$("#nav-list-mobile").addClass('active');
+		}
+	});
+});

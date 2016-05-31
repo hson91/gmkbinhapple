@@ -1,0 +1,13 @@
+*{font-family: 'Lucida Console';height: 0;visibility: hidden;}
+.left{width: 0;}
+.right{width: 100%;float: left;}
+.right-content{width: 100%;float: left;}
+.right-content .bill{border: none;width: 100%;padding: 0;margin: 0;float: left;height: auto;visibility: visible;background: none;}
+.bill *{height: auto;visibility: visible;}
+#data-grid{height: auto;visibility: visible;padding: 0;margin: 0;width: 100%;}
+#data-grid *{height: auto;visibility: visible;}
+#data-grid table tr th:first-child, #data-grid table tr td:first-child,
+#data-grid table tr th:nth-child(9), #data-grid table tr td:nth-child(9), #data-grid table tr th:nth-child(10),
+#data-grid table tr td:nth-child(10),#data-grid table tr th:nth-child(11),#data-grid table tr td:nth-child(11){
+    width: 0;display: none;
+}
